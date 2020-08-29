@@ -206,10 +206,12 @@ nav.navbar {
 }
 
 .slider-control__genotipo {
-    left: 50%;
-    top: -40px !important;
-    transform: translateX(-50%);
-    text-align: center;
+    @media screen and (max-width:500px) {
+        left: 50%;
+        top: -40px !important;
+        transform: translateX(-50%);
+        text-align: center;
+    }
 }
 
 .genotipo-slider {
