@@ -1,0 +1,1670 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Prata", serif;
+}
+
+footer {
+  padding-top: 6rem;
+}
+
+.last-section__footer {
+  margin-top: 6rem;
+}
+
+.primary__genotipo {
+  color: #003a5d;
+}
+
+.bg-primary__genotipo {
+  background-color: #003a5d;
+}
+
+.secondary__genotipo {
+  color: #A8965E;
+}
+
+.gray__genotipo {
+  color: #818181;
+}
+
+@media screen and (max-width: 576px) {
+  button.px-5 {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  nav.navbar {
+    height: 60px !important;
+  }
+}
+
+.home2 {
+  width: 645px;
+  height: 796px;
+  padding-left: 40px;
+  object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+  .home2 {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .w-icon-section {
+    width: 16px;
+  }
+}
+
+.box-inside__container {
+  padding: 2.72rem 1.86rem 0 1.86rem;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .box-inside__container {
+    padding: 14px 16px 0 16px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .box-inside__container {
+    padding: 12px 14px 0 14px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .box-inside__container {
+    padding: 4px 8px 0 10px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .box-inside__container {
+    padding: 8px 8px 0 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .circles__genotipo {
+    width: 64px;
+  }
+}
+
+.box-inside__container + .d-flex {
+  margin: 0 !important;
+  padding: 0 1.86rem 0 1.86rem;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .box-inside__container + .d-flex {
+    padding: 0 16px 0 16px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .box-inside__container + .d-flex {
+    padding: 0 14px 0 14px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .box-inside__container + .d-flex {
+    padding: 0 8px 0 10px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .box-inside__container + .d-flex {
+    padding: 0 8px 0 10px !important;
+  }
+}
+
+.image__construction {
+  padding: 0 1.86rem 0 1.86rem;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .image__construction {
+    margin-top: 8px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .image__construction {
+    margin-top: 6px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .image__construction {
+    margin-top: 4px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .image__construction {
+    margin-top: 2px !important;
+  }
+}
+
+.side-image__content {
+  width: calc(100% - 685px);
+}
+
+.genotipo__font-size-12 {
+  font-size: 12px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-12 {
+    font-size: 11px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-12 {
+    font-size: 10px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-12 {
+    font-size: 9px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-12 {
+    font-size: 8px !important;
+  }
+}
+
+.genotipo__font-size-13 {
+  font-size: 13px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-13 {
+    font-size: 12px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-13 {
+    font-size: 11px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-13 {
+    font-size: 10px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-13 {
+    font-size: 9px !important;
+  }
+}
+
+.genotipo__font-size-14 {
+  font-size: 14px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-14 {
+    font-size: 13px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-14 {
+    font-size: 12px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-14 {
+    font-size: 11px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-14 {
+    font-size: 10px !important;
+  }
+}
+
+.genotipo__font-size-15 {
+  font-size: 15px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-15 {
+    font-size: 14px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-15 {
+    font-size: 13px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-15 {
+    font-size: 12px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-15 {
+    font-size: 11px !important;
+  }
+}
+
+.genotipo__font-size-16 {
+  font-size: 16px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-16 {
+    font-size: 15px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-16 {
+    font-size: 14px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-16 {
+    font-size: 13px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-16 {
+    font-size: 12px !important;
+  }
+}
+
+.genotipo__font-size-17 {
+  font-size: 17px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-17 {
+    font-size: 16px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-17 {
+    font-size: 15px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-17 {
+    font-size: 14px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-17 {
+    font-size: 13px !important;
+  }
+}
+
+.genotipo__font-size-18 {
+  font-size: 18px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-18 {
+    font-size: 17px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-18 {
+    font-size: 16px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-18 {
+    font-size: 15px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-18 {
+    font-size: 14px !important;
+  }
+}
+
+.genotipo__font-size-19 {
+  font-size: 19px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-19 {
+    font-size: 18px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-19 {
+    font-size: 17px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-19 {
+    font-size: 16px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-19 {
+    font-size: 15px !important;
+  }
+}
+
+.genotipo__font-size-20 {
+  font-size: 20px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-20 {
+    font-size: 19px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-20 {
+    font-size: 18px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-20 {
+    font-size: 17px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-20 {
+    font-size: 16px !important;
+  }
+}
+
+.genotipo__font-size-21 {
+  font-size: 21px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-21 {
+    font-size: 20px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-21 {
+    font-size: 19px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-21 {
+    font-size: 18px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-21 {
+    font-size: 17px !important;
+  }
+}
+
+.genotipo__font-size-22 {
+  font-size: 22px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-22 {
+    font-size: 21px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-22 {
+    font-size: 20px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-22 {
+    font-size: 19px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-22 {
+    font-size: 18px !important;
+  }
+}
+
+.genotipo__font-size-23 {
+  font-size: 23px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-23 {
+    font-size: 22px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-23 {
+    font-size: 21px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-23 {
+    font-size: 20px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-23 {
+    font-size: 19px !important;
+  }
+}
+
+.genotipo__font-size-24 {
+  font-size: 24px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-24 {
+    font-size: 23px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-24 {
+    font-size: 22px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-24 {
+    font-size: 21px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-24 {
+    font-size: 20px !important;
+  }
+}
+
+.genotipo__font-size-25 {
+  font-size: 25px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-25 {
+    font-size: 24px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-25 {
+    font-size: 23px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-25 {
+    font-size: 22px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-25 {
+    font-size: 21px !important;
+  }
+}
+
+.genotipo__font-size-26 {
+  font-size: 26px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-26 {
+    font-size: 25px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-26 {
+    font-size: 24px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-26 {
+    font-size: 23px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-26 {
+    font-size: 22px !important;
+  }
+}
+
+.genotipo__font-size-27 {
+  font-size: 27px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-27 {
+    font-size: 26px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-27 {
+    font-size: 25px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-27 {
+    font-size: 24px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-27 {
+    font-size: 23px !important;
+  }
+}
+
+.genotipo__font-size-28 {
+  font-size: 28px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-28 {
+    font-size: 27px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-28 {
+    font-size: 26px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-28 {
+    font-size: 25px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-28 {
+    font-size: 24px !important;
+  }
+}
+
+.genotipo__font-size-29 {
+  font-size: 29px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-29 {
+    font-size: 28px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-29 {
+    font-size: 27px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-29 {
+    font-size: 26px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-29 {
+    font-size: 25px !important;
+  }
+}
+
+.genotipo__font-size-30 {
+  font-size: 30px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-30 {
+    font-size: 27px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-30 {
+    font-size: 24px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-30 {
+    font-size: 21px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-30 {
+    font-size: 18px !important;
+  }
+}
+
+.genotipo__font-size-31 {
+  font-size: 31px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-31 {
+    font-size: 28px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-31 {
+    font-size: 25px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-31 {
+    font-size: 22px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-31 {
+    font-size: 19px !important;
+  }
+}
+
+.genotipo__font-size-32 {
+  font-size: 32px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-32 {
+    font-size: 29px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-32 {
+    font-size: 26px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-32 {
+    font-size: 23px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-32 {
+    font-size: 20px !important;
+  }
+}
+
+.genotipo__font-size-33 {
+  font-size: 33px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-33 {
+    font-size: 30px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-33 {
+    font-size: 27px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-33 {
+    font-size: 24px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-33 {
+    font-size: 21px !important;
+  }
+}
+
+.genotipo__font-size-34 {
+  font-size: 34px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-34 {
+    font-size: 31px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-34 {
+    font-size: 28px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-34 {
+    font-size: 25px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-34 {
+    font-size: 22px !important;
+  }
+}
+
+.genotipo__font-size-35 {
+  font-size: 35px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-35 {
+    font-size: 32px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-35 {
+    font-size: 29px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-35 {
+    font-size: 26px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-35 {
+    font-size: 23px !important;
+  }
+}
+
+.genotipo__font-size-36 {
+  font-size: 36px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-36 {
+    font-size: 33px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-36 {
+    font-size: 30px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-36 {
+    font-size: 27px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-36 {
+    font-size: 24px !important;
+  }
+}
+
+.genotipo__font-size-37 {
+  font-size: 37px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-37 {
+    font-size: 34px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-37 {
+    font-size: 31px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-37 {
+    font-size: 28px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-37 {
+    font-size: 25px !important;
+  }
+}
+
+.genotipo__font-size-38 {
+  font-size: 38px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-38 {
+    font-size: 35px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-38 {
+    font-size: 32px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-38 {
+    font-size: 29px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-38 {
+    font-size: 26px !important;
+  }
+}
+
+.genotipo__font-size-39 {
+  font-size: 39px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-39 {
+    font-size: 36px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-39 {
+    font-size: 33px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-39 {
+    font-size: 30px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-39 {
+    font-size: 27px !important;
+  }
+}
+
+.genotipo__font-size-40 {
+  font-size: 40px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-40 {
+    font-size: 37px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-40 {
+    font-size: 34px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-40 {
+    font-size: 31px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-40 {
+    font-size: 28px !important;
+  }
+}
+
+.genotipo__font-size-41 {
+  font-size: 41px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-41 {
+    font-size: 38px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-41 {
+    font-size: 35px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-41 {
+    font-size: 32px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-41 {
+    font-size: 29px !important;
+  }
+}
+
+.genotipo__font-size-42 {
+  font-size: 42px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-42 {
+    font-size: 39px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-42 {
+    font-size: 36px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-42 {
+    font-size: 33px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-42 {
+    font-size: 30px !important;
+  }
+}
+
+.genotipo__font-size-43 {
+  font-size: 43px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-43 {
+    font-size: 40px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-43 {
+    font-size: 37px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-43 {
+    font-size: 34px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-43 {
+    font-size: 31px !important;
+  }
+}
+
+.genotipo__font-size-44 {
+  font-size: 44px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-44 {
+    font-size: 41px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-44 {
+    font-size: 38px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-44 {
+    font-size: 35px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-44 {
+    font-size: 32px !important;
+  }
+}
+
+.genotipo__font-size-45 {
+  font-size: 45px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-45 {
+    font-size: 42px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-45 {
+    font-size: 39px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-45 {
+    font-size: 36px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-45 {
+    font-size: 33px !important;
+  }
+}
+
+.genotipo__font-size-46 {
+  font-size: 46px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-46 {
+    font-size: 43px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-46 {
+    font-size: 40px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-46 {
+    font-size: 37px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-46 {
+    font-size: 34px !important;
+  }
+}
+
+.genotipo__font-size-47 {
+  font-size: 47px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-47 {
+    font-size: 44px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-47 {
+    font-size: 41px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-47 {
+    font-size: 38px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-47 {
+    font-size: 35px !important;
+  }
+}
+
+.genotipo__font-size-48 {
+  font-size: 48px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-48 {
+    font-size: 45px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-48 {
+    font-size: 42px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-48 {
+    font-size: 39px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-48 {
+    font-size: 36px !important;
+  }
+}
+
+.genotipo__font-size-49 {
+  font-size: 49px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-49 {
+    font-size: 46px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-49 {
+    font-size: 43px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-49 {
+    font-size: 40px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-49 {
+    font-size: 37px !important;
+  }
+}
+
+.genotipo__font-size-50 {
+  font-size: 50px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-50 {
+    font-size: 47px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-50 {
+    font-size: 44px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-50 {
+    font-size: 41px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-50 {
+    font-size: 38px !important;
+  }
+}
+
+.genotipo__font-size-51 {
+  font-size: 51px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-51 {
+    font-size: 48px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-51 {
+    font-size: 45px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-51 {
+    font-size: 42px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-51 {
+    font-size: 39px !important;
+  }
+}
+
+.genotipo__font-size-52 {
+  font-size: 52px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-52 {
+    font-size: 49px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-52 {
+    font-size: 46px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-52 {
+    font-size: 43px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-52 {
+    font-size: 40px !important;
+  }
+}
+
+.genotipo__font-size-53 {
+  font-size: 53px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-53 {
+    font-size: 50px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-53 {
+    font-size: 47px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-53 {
+    font-size: 44px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-53 {
+    font-size: 41px !important;
+  }
+}
+
+.genotipo__font-size-54 {
+  font-size: 54px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-54 {
+    font-size: 51px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-54 {
+    font-size: 48px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-54 {
+    font-size: 45px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-54 {
+    font-size: 42px !important;
+  }
+}
+
+.genotipo__font-size-55 {
+  font-size: 55px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-55 {
+    font-size: 52px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-55 {
+    font-size: 49px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-55 {
+    font-size: 46px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-55 {
+    font-size: 43px !important;
+  }
+}
+
+.genotipo__font-size-56 {
+  font-size: 56px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-56 {
+    font-size: 53px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-56 {
+    font-size: 50px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-56 {
+    font-size: 47px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-56 {
+    font-size: 44px !important;
+  }
+}
+
+.genotipo__font-size-57 {
+  font-size: 57px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-57 {
+    font-size: 54px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-57 {
+    font-size: 51px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-57 {
+    font-size: 48px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-57 {
+    font-size: 45px !important;
+  }
+}
+
+.genotipo__font-size-58 {
+  font-size: 58px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-58 {
+    font-size: 55px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-58 {
+    font-size: 52px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-58 {
+    font-size: 49px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-58 {
+    font-size: 46px !important;
+  }
+}
+
+.genotipo__font-size-59 {
+  font-size: 59px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-59 {
+    font-size: 56px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-59 {
+    font-size: 53px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-59 {
+    font-size: 50px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-59 {
+    font-size: 47px !important;
+  }
+}
+
+.genotipo__font-size-60 {
+  font-size: 60px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-60 {
+    font-size: 57px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-60 {
+    font-size: 54px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-60 {
+    font-size: 51px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-60 {
+    font-size: 48px !important;
+  }
+}
+
+.genotipo__font-size-61 {
+  font-size: 61px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-61 {
+    font-size: 58px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-61 {
+    font-size: 55px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-61 {
+    font-size: 52px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-61 {
+    font-size: 49px !important;
+  }
+}
+
+.genotipo__font-size-62 {
+  font-size: 62px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-62 {
+    font-size: 59px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-62 {
+    font-size: 56px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-62 {
+    font-size: 53px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-62 {
+    font-size: 50px !important;
+  }
+}
+
+.genotipo__font-size-63 {
+  font-size: 63px !important;
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .genotipo__font-size-63 {
+    font-size: 60px !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .genotipo__font-size-63 {
+    font-size: 57px !important;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .genotipo__font-size-63 {
+    font-size: 54px !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .genotipo__font-size-63 {
+    font-size: 51px !important;
+  }
+}
+
+.responsive-mt-1 {
+  margin-top: 1rem;
+}
+
+.responsive-mb-1 {
+  margin-bottom: 1rem;
+}
+
+.responsive-ml-1 {
+  margin-left: 1rem;
+}
+
+.responsive-mr-1 {
+  margin-right: 1rem;
+}
+
+.responsive-mx-1 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.responsive-my-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.responsive-mt-2 {
+  margin-top: 2rem;
+}
+
+.responsive-mb-2 {
+  margin-bottom: 2rem;
+}
+
+.responsive-ml-2 {
+  margin-left: 2rem;
+}
+
+.responsive-mr-2 {
+  margin-right: 2rem;
+}
+
+.responsive-mx-2 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.responsive-my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.responsive-mt-3 {
+  margin-top: 3rem;
+}
+
+.responsive-mb-3 {
+  margin-bottom: 3rem;
+}
+
+.responsive-ml-3 {
+  margin-left: 3rem;
+}
+
+.responsive-mr-3 {
+  margin-right: 3rem;
+}
+
+.responsive-mx-3 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.responsive-my-3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.responsive-mt-4 {
+  margin-top: 4rem;
+}
+
+.responsive-mb-4 {
+  margin-bottom: 4rem;
+}
+
+.responsive-ml-4 {
+  margin-left: 4rem;
+}
+
+.responsive-mr-4 {
+  margin-right: 4rem;
+}
+
+.responsive-mx-4 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.responsive-my-4 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.btn-primary__genotipo {
+  font-family: "Roboto", sans-serif;
+  background-color: #003a5d;
+  color: #dfe7ea;
+}
+.btn-primary__genotipo:hover {
+  background-color: #005a90;
+  color: #dfe7ea;
+}
+
+.btn-outline-primary__genotipo {
+  font-family: "Roboto", sans-serif;
+  background-color: transparent;
+  color: #003a5d;
+  border: #003a5d 2px solid;
+}
+.btn-outline-primary__genotipo:hover {
+  background-color: #003a5d;
+  color: #dfe7ea;
+}
+
+.slider-control__genotipo {
+  left: 50%;
+  top: -40px !important;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.genotipo-slider::before {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.0001) 50%);
+}
+
+.genotipo__box {
+  width: calc(50% - 10px);
+  padding-bottom: 50%;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.298514);
+}
+@media screen and (max-width: 500px) {
+  .genotipo__box {
+    width: 100%;
+    padding-bottom: 100%;
+  }
+}
+.genotipo__box:first-child {
+  margin-right: 20px;
+}
+
+.slick-track {
+  padding: 4px 8px;
+  width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .slick-slider {
+    height: 246px !important;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .slick-slide {
+    height: 240px !important;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 772px) {
+  .mapa__responsive {
+    padding-top: 5rem !important;
+  }
+}
+
+.models-nav ul {
+  list-style: none;
+}
+
+.icons-header {
+  color: #003a5d;
+  list-style: none;
+}
+.icons-header a {
+  color: #003a5d;
+}
+.icons-header:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.icons-footer {
+  list-style: none;
+}
+.icons-footer:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.nav-link {
+  color: #818181;
+}
+
+.nav-link.link-active {
+  color: #A8965E !important;
+  position: relative;
+}
+.nav-link.link-active::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: #A8965E;
+  left: 0;
+  bottom: 0;
+}
+
+.nav-link-mobile {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.link-active-mobile {
+  color: #A8965E;
+  font-weight: bold;
+  font-size: 20px !important;
+}
+
+.menu-mobile {
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
+.menu-mobile-container::before {
+  position: absolute;
+  content: "";
+  width: calc(50% - 30px);
+  top: 50%;
+  left: 0;
+  background-color: #fff;
+  height: 2px;
+}
+.menu-mobile-container::after {
+  position: absolute;
+  content: "";
+  width: calc(50% - 30px);
+  top: 50%;
+  right: 0;
+  background-color: #fff;
+  height: 2px;
+}
+
+.menu-mobile-footer::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+}
+
+.icons-mobile:not(:last-child) {
+  margin-right: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
