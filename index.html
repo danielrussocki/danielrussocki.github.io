@@ -151,8 +151,27 @@
             </div>
         </div>
         <div class="d-flex position-relative animate__animated animate__fadeIn animate__delay-3s">
-            <div>
+            <div class="position-relative">
                 <img class="home2" src="img/home2.png" alt="home2">
+                <div v-if="dinningRoom" class="dinning-room__overlay">
+                    <div class="container w-100 h-100 d-flex flex-column position-absolute" style="top: 0; left: 0;">
+                        <div class="row mt-auto">
+                            <div class="col-10 ml-auto">
+                                <h3 class="genotipo__font-size-32 primary__genotipo">Amplitud, lujo y confort...</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-10 ml-auto">
+                                <p class="text-left genotipo__font-size-16 second-gray__genotipo" style="max-width: 200px;">En Bellavista Juriquilla fusionamos lo mejor del Lujo y la Arquitectura, dando como resultado un concepto único y lleno de armonía para todos aquellos que disfrutan vivir bien.</p>
+                            </div>
+                        </div>
+                        <div class="row mb-auto">
+                            <div class="col-10 ml-auto">
+                                <button class="btn btn-outline-primary__genotipo rounded-0 d-block genotipo__font-size-16 mt-3">Conoce el Proyecto</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div v-if="!dinningRoom" class="side-image__content position-relative d-flex">
                 <h3 class="genotipo__font-size-40 primary__genotipo position-absolute" style="top: 300px; left: -70px;">Amplitud, lujo y confort...</h3>
@@ -161,7 +180,7 @@
                     <button class="btn btn-outline-primary__genotipo rounded-0 d-block genotipo__font-size-16 mt-5">Conoce el Proyecto</button>
                 </div>
             </div>
-            <img class="position-absolute" src="img/logo-esquina.png" alt="logo-esquina" style="width: 236px; height: 331px; right: 0; top: 0;">
+            <img class="position-absolute corner-image" src="img/logo-esquina.png" alt="logo-esquina" style="width: 236px; height: 331px; right: 0; top: 0;">
         </div>
         <div class="container my-5 animate__animated animate__fadeIn animate__delay-4s">
             <div class="row">

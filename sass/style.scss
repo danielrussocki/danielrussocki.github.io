@@ -3,6 +3,7 @@ $white-text: #dfe7ea;
 $hover-header: #A8965E;
 $gray: #818181;
 $border-gray: #979797;
+$second-gray: #323232;
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -36,6 +37,10 @@ footer {
     color: $gray;
 }
 
+.second-gray__genotipo {
+    color: $second-gray;
+}
+
 button.px-5 {
     @media screen and (max-width:576px) {
         padding-left: 2rem !important;
@@ -47,6 +52,25 @@ button.px-5 {
 nav.navbar {
     @media screen and (max-width:576px) {
         height: 60px !important;
+    }
+}
+
+.dinning-room__overlay {
+    &::before {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(255, 255, 255, .6);
+    }
+}
+
+.corner-image {
+    @media screen and (max-width:576px) {
+        width: 80px !important;
+        height: auto !important;
     }
 }
 
