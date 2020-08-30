@@ -4,6 +4,7 @@ $hover-header: #A8965E;
 $gray: #818181;
 $border-gray: #979797;
 $second-gray: #323232;
+$third-gray: #f2f2f2;
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -39,6 +40,10 @@ footer {
 
 .second-gray__genotipo {
     color: $second-gray;
+}
+
+.bg-light-gray__genotipo {
+    background-color: $third-gray;
 }
 
 button.px-5 {
