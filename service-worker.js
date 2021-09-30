@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.45464b19885d5fad29a4e55bcd45abb7.js"
+  "/precache-manifest.41aca52380222f886f688bb6ca29d359.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "ese-mas"});
